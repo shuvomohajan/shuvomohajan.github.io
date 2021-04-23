@@ -1,65 +1,52 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Shuvo Mohajan | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://shuvomohajan.github.io/">My Portfol!o</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Hey! This is Shuvo Mohajan. <br />
+          I'm a <code className={styles.code}>Web <span>Designer & Developer</span></code>
         </p>
 
+        <h2 className={styles.second_title}>
+          Working <span>Projects</span>
+        </h2>
+
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://aonmart.net" target="_blank" className={styles.card}>
+            <h3>AonMart.net</h3>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://boionlinebd.com/" target="_blank" className={styles.card}>
+            <h3>BoiOnlineBD.com</h3>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://esomoybangla.com/" target="_blank" className={styles.card}>
+            <h3>EsomoyBangla.com</h3>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="http://glolotto.org/" target="_blank" className={styles.card}>
+            <h3>GloLotto.org</h3>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        <a href="https://twitter.com/shuvo_mohajan" target="_blank" rel="noopener noreferrer">
+          All Right Reserved By Shuvo Mohajan{" "}
         </a>
       </footer>
     </div>
-  )
+  );
 }
