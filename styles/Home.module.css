@@ -57,10 +57,11 @@
   margin: 6rem 0 0;
   line-height: 1.15;
   font-size: 3rem;
-  position:relative;
+  position: relative;
   color: #232323;
 }
 
+.title span,
 .second_title span {
   font-size: 7rem;
   color: #abbed4;
@@ -86,8 +87,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .code span {
