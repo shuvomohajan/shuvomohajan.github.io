@@ -16,7 +16,10 @@ export default function Home() {
 
         <p className={styles.description}>
           Hey! This is Shuvo Mohajan. <br />
-          I'm a <code className={styles.code}>Web <span>Designer & Developer</span></code>
+          I'm a{" "}
+          <code className={styles.code}>
+            Web <span>Designer & Developer</span>
+          </code>
         </p>
 
         <h2 className={styles.second_title}>
@@ -24,7 +27,11 @@ export default function Home() {
         </h2>
 
         <div className={styles.grid}>
-          <a href="https://aonmart.net" target="_blank" className={styles.card}>
+          <a href="https://pixelSensePark.com/" target="_blank" className={styles.card}>
+            <h3>PixelSensePark.com</h3>
+          </a>
+
+          <a href="https://aonmart.net/" target="_blank" className={styles.card}>
             <h3>AonMart.net</h3>
           </a>
 

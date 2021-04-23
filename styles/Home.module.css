@@ -54,11 +54,10 @@
 }
 
 .second_title {
-  margin: 6rem 0 0;
+  margin: 4rem 0 0;
   line-height: 1.15;
   font-size: 2rem;
   position: relative;
-  color: #232323;
   left: -15%;
 }
 
@@ -100,7 +99,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .card {
@@ -118,12 +117,13 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #2289ff;
-  border-color: #2289ff;
+  color: #ce9178;
+  border-color: #1e1e1e;
+  background-color: #1e1e1e;
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
+  margin: 1rem 0;
   font-size: 1.5rem;
 }
 
@@ -137,9 +137,40 @@
   height: 1em;
 }
 
+/* @media (min-width: 600px) { */
+
+/* } */
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  
+  .title{
+    font-size: 3.2rem;
+  }
+
+  .title,
+  .second_title {
+    text-align:center;
+  }
+
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .code {
+    font-size: 0.9rem;
+  }
+
+  .second_title {
+    font-size: 1.5rem;
+    left: -25%;
+    margin-top: 3rem;
+  }
+
+  .second_title span {
+    font-size: 3rem;
   }
 }
