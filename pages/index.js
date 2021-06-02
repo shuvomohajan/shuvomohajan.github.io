@@ -45,8 +45,12 @@ export default function Home() {
             <h3>EsomoyBangla.com</h3>
           </a>
 
-          <a href="http://glolotto.org/" target="_blank" className={styles.card}>
+          <a href="https://glolotto.org/" target="_blank" className={styles.card}>
             <h3>GloLotto.org</h3>
+          </a>
+
+          <a href="https://apnarwallet.com/exchanges.php" target="_blank" className={styles.card}>
+            <h3>ApnarWallet.com</h3>
           </a>
         </div>
       </main>
