@@ -2,10 +2,6 @@ import Image from "next/image";
 import styles from "./About.module.css";
 import Social from "./Social/Social";
 
-const myLoader = ({ src, width, quality }) => {
-  return `https://shuvomohajan.github.io${src}?w=${width}&q=${quality || 85}`;
-};
-
 const About = () => {
   return (
     <div
@@ -16,11 +12,11 @@ const About = () => {
     >
       <div className="container px-2 md:px-4 mx-auto h-full">
         <Image
-          loader={myLoader}
           src="/shuvo.jpg"
           height="150"
           width="150"
           className="object-cover rounded-full"
+          alt="Shuvo"
           loading="eager"
           priority="true"
         />
@@ -32,7 +28,7 @@ const About = () => {
         </h1>
 
         <p className={styles.description}>
-          I'm a{" "}
+          I&apos;m a{" "}
           <code className={styles.code}>
             Web <span>Designer & Developer</span>
           </code>

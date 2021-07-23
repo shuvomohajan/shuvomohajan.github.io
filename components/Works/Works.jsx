@@ -12,6 +12,7 @@ const Works = () => {
           <a
             href="https://pixelSensePark.com/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>PixelSensePark.com</h3>
@@ -21,6 +22,7 @@ const Works = () => {
           <a
             href="https://aonmart.net/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>AonMart.net</h3>
@@ -32,6 +34,7 @@ const Works = () => {
           <a
             href="https://esomoybangla.com/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>EsomoyBangla.com</h3>
@@ -41,6 +44,7 @@ const Works = () => {
           <a
             href="https://rabbiitfirm.com/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>RabbiITFirm.com</h3>
@@ -50,6 +54,7 @@ const Works = () => {
           <a
             href="https://boionlinebd.com/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>BoiOnlineBD.com</h3>
@@ -59,6 +64,7 @@ const Works = () => {
           <a
             href="https://glolotto.org/"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>GloLotto.org</h3>
@@ -68,6 +74,7 @@ const Works = () => {
           <a
             href="https://apnarwallet.com/exchanges.php"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>ApnarWallet.com</h3>
@@ -77,6 +84,7 @@ const Works = () => {
           <a
             href="https://apnarwallet.com/exchanges.php"
             target="_blank"
+            rel="noreferrer"
             className={styles.card}
           >
             <h3>Swaty Books</h3>
