@@ -11,6 +11,10 @@ body {
   color: #1e1e1e;
 }
 
+.bg-brand {
+  background-color: #353353;
+}
+
 a {
   color: inherit;
   text-decoration: none;
