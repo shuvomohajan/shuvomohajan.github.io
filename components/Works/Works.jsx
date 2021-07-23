@@ -1,32 +1,30 @@
-import styles from './Works.module.css'
+import styles from "./Works.module.css";
 
 const Works = () => {
   return (
     <div className="min-h-screen py-14">
-      <div className="container px-2 md:px-4 mx-auto">
-        <h2 className={styles.second_title}>
-          Working <span>Projects</span>
-        </h2>
+      <div className="container px-4 md:px-14 mx-auto">
+        <h2 className="text-gray-700 font-bold text-4xl mb-16">Recent Works</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5 md:gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 md:gap-6 lg:gap-8">
           <a
             href="https://pixelSensePark.com/"
             target="_blank"
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>PixelSensePark.com</h3>
-            <p>Protfolio & Proto Editing Solution</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">PixelSensePark.com</h3>
+            <p className="text-gray-500">Protfolio & Proto Editing Solution</p>
           </a>
 
           <a
-            href="https://aonmart.net/"
+            href="https://aonmart.abaacorp.com/"
             target="_blank"
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>AonMart.net</h3>
-            <p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">AonMart.net</h3>
+            <p className="text-gray-500">
               Wirehouse and Multi Store Inventory with Mobile App E-commerce
             </p>
           </a>
@@ -37,8 +35,8 @@ const Works = () => {
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>EsomoyBangla.com</h3>
-            <p>Online News Portal</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">EsomoyBangla.com</h3>
+            <p className="text-gray-500">Online News Portal</p>
           </a>
 
           <a
@@ -47,8 +45,8 @@ const Works = () => {
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>RabbiITFirm.com</h3>
-            <p>Protfolio and SEO Solution</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">RabbiITFirm.com</h3>
+            <p className="text-gray-500">Protfolio and SEO Solution</p>
           </a>
 
           <a
@@ -57,8 +55,8 @@ const Works = () => {
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>BoiOnlineBD.com</h3>
-            <p>Book E-Commerce</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">BoiOnlineBD.com</h3>
+            <p className="text-gray-500">Book E-Commerce</p>
           </a>
 
           <a
@@ -67,8 +65,8 @@ const Works = () => {
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>GloLotto.org</h3>
-            <p>Thai Lottery Game</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">GloLotto.org</h3>
+            <p className="text-gray-500">Thai Lottery Game</p>
           </a>
 
           <a
@@ -77,18 +75,18 @@ const Works = () => {
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>ApnarWallet.com</h3>
-            <p>Money Exchange</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">ApnarWallet.com</h3>
+            <p className="text-gray-500">Money Exchange</p>
           </a>
 
           <a
-            href="https://apnarwallet.com/exchanges.php"
+            href="https://sawtybooks.com/"
             target="_blank"
             rel="noreferrer"
             className={styles.card}
           >
-            <h3>Swaty Books</h3>
-            <p>Audio Book Mobile App</p>
+            <h3 className="text-xl mb-5 font-semibold text-gray-600">Swaty Books</h3>
+            <p className="text-gray-500">Audio Book Mobile App</p>
           </a>
         </div>
       </div>

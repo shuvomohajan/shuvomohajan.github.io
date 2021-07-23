@@ -10,7 +10,7 @@ const About = () => {
         styles.customBg,
       ].join(" ")}
     >
-      <div className="container px-2 md:px-4 mx-auto h-full">
+      <div className="container px-4 md:px-14 mx-auto h-full">
         <Image
           src="/shuvo.jpg"
           height="150"

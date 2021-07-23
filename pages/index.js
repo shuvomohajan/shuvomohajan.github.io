@@ -15,10 +15,10 @@ export default function Home() {
       </Head>
 
       <div className="block md:flex">
-        <aside className="w-64 h-screen absolute md:sticky -left-full md:left-0 top-0 bg-brand border-r border-gray-600">
+        <aside className="w-72 h-screen absolute md:sticky -left-full md:left-0 top-0 bg-brand border-r border-gray-600">
           <Aside />
         </aside>
-        <div>
+        <div className="w-full">
           <About />
           <Works />
         </div>
