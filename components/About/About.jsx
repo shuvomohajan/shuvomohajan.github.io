@@ -38,6 +38,7 @@ const About = () => {
 
         <a
           href="https://wa.me/01838501660"
+          rel="noreferrer"
           className="mt-10 py-2.5 px-8 rounded-full font-bold bg-red-500 inline-block cursor-pointer"
           target="_blank"
         >
