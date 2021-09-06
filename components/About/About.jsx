@@ -30,15 +30,16 @@ const About = () => {
         <p className={styles.description}>
           I&apos;m a{" "}
           <code className={styles.code}>
-            Web <span>Designer & Developer</span>
+            Web <span>Developer & Designer</span>
           </code>
         </p>
 
         <Social />
 
         <a
-          href="#"
+          href="https://wa.me/01838501660"
           className="mt-10 py-2.5 px-8 rounded-full font-bold bg-red-500 inline-block cursor-pointer"
+          target="_blank"
         >
           Hire Me
         </a>
