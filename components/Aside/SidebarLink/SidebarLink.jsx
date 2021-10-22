@@ -1,12 +1,12 @@
 import { Link } from "react-scroll";
 
-const SidebarLink = ({ name, goto }) => {
+const SidebarLink = ({ name, isActive }) => {
   let icon = "";
   if (name == "Home") {
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 mr-4 text-yellow-300"
+        className="h-6 w-6 mr-4 text-yellow-400"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -23,7 +23,7 @@ const SidebarLink = ({ name, goto }) => {
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 mr-4 text-yellow-300"
+        className="h-6 w-6 mr-4 text-yellow-400"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -40,7 +40,7 @@ const SidebarLink = ({ name, goto }) => {
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 mr-4 text-yellow-300"
+        className="h-6 w-6 mr-4 text-yellow-400"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -59,7 +59,7 @@ const SidebarLink = ({ name, goto }) => {
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 mr-4 text-yellow-300"
+        className="h-6 w-6 mr-4 text-yellow-400"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -76,7 +76,7 @@ const SidebarLink = ({ name, goto }) => {
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 mr-4 text-yellow-300"
+        className="h-6 w-6 mr-4 text-yellow-400"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -92,7 +92,7 @@ const SidebarLink = ({ name, goto }) => {
   }
 
   return (
-    <Link to={goto} spy={true} smooth={true} duration={500} className="mb-6 font-bold flex items-center focus:text-yellow-300 hover:text-yellow-300 cursor-pointer">
+    <Link to={name} spy={true} smooth={true} duration={500} className={`mb-6 font-bold flex items-center ${isActive ? 'text-yellow-400' : null} hover:text-yellow-400 cursor-pointer`}>
       {icon}
       {name}
     </Link>

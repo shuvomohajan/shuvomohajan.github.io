@@ -43,7 +43,7 @@ const Works = () => {
   ]);
 
   return (
-    <div className="min-h-screen py-14" id="work">
+    <div className="min-h-screen py-14" id="Works">
       <div className="container px-4 md:px-14 mx-auto">
         <h2 className="text-gray-700 font-bold text-4xl mb-16">Recent Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 md:gap-6 lg:gap-8">
@@ -56,7 +56,7 @@ const Works = () => {
                 key={work.id}
                 className={styles.card}
               >
-                <h3 className="text-xl mb-5 font-semibold text-gray-600">
+                <h3 className="text-xl mb-5 font-semibold text-gray-600 transition duration-200 ease-in-out">
                   {work.name}
                 </h3>
                 <p className="text-gray-500">{work.description}</p>

@@ -1,9 +1,8 @@
 .card {
   box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
-  @apply overflow-hidden rounded-2xl p-6 h-48 bg-white hover:bg-indigo-500 relative hover:text-white transition-all duration-200 ease-linear;
+  @apply overflow-hidden rounded-2xl p-6 h-48 bg-white relative hover:text-white transition-all duration-200 ease-linear;
 }
 
-.card:hover h3,
-.card:hover p {
-  color: #fff;
+.card:hover h3{
+  @apply text-red-500;
 }

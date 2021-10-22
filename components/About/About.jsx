@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div
       className={[
-        "min-h-screen py-14 flex justify-center items-center text-center text-white",
+        "min-h-screen py-14 flex justify-center items-center text-center text-white bg-dark-700",
         styles.customBg,
       ].join(" ")}
-      id="home"
+      id="Home"
     >
       <div className="container px-4 md:px-14 mx-auto h-full">
         <Image
