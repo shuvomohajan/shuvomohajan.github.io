@@ -9,6 +9,7 @@ const About = () => {
         "min-h-screen py-14 flex justify-center items-center text-center text-white",
         styles.customBg,
       ].join(" ")}
+      id="home"
     >
       <div className="container px-4 md:px-14 mx-auto h-full">
         <Image

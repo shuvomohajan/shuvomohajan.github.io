@@ -1,4 +1,6 @@
-const Link = ({ name }) => {
+import { Link } from "react-scroll";
+
+const SidebarLink = ({ name, goto }) => {
   let icon = "";
   if (name == "Home") {
     icon = (
@@ -90,16 +92,11 @@ const Link = ({ name }) => {
   }
 
   return (
-    <>
-      <a
-        href="#"
-        className="mb-6 font-bold flex items-center focus:text-yellow-300 hover:text-yellow-300"
-      >
-        {icon}
-        {name}
-      </a>
-    </>
+    <Link to={goto} spy={true} smooth={true} duration={500} className="mb-6 font-bold flex items-center focus:text-yellow-300 hover:text-yellow-300 cursor-pointer">
+      {icon}
+      {name}
+    </Link>
   );
 };
 
-export default Link;
+export default SidebarLink;

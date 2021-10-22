@@ -43,7 +43,7 @@ const Works = () => {
   ]);
 
   return (
-    <div className="min-h-screen py-14">
+    <div className="min-h-screen py-14" id="work">
       <div className="container px-4 md:px-14 mx-auto">
         <h2 className="text-gray-700 font-bold text-4xl mb-16">Recent Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 md:gap-6 lg:gap-8">
