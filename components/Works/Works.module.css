@@ -2,6 +2,6 @@
   @apply overflow-hidden shadow-md hover:shadow-xl rounded-2xl p-6 h-48 bg-white relative hover:text-white transition-all duration-200 ease-linear transform hover:-translate-y-1 hover:scale-105;
 }
 
-.card:hover h3{
+.card:hover h3 {
   @apply text-red-500;
 }

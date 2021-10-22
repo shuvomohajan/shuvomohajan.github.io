@@ -1,50 +1,23 @@
-import Image from "next/image";
 import styles from "./About.module.css";
-import Social from "./Social/Social";
 
 const About = () => {
   return (
-    <div
-      className={[
-        "min-h-screen py-14 flex justify-center items-center text-center text-white bg-dark-700",
-        styles.customBg,
-      ].join(" ")}
-      id="Home"
-    >
-      <div className="container px-4 md:px-14 mx-auto h-full">
-        <Image
-          src="/shuvo.jpg"
-          height="150"
-          width="150"
-          className="object-cover rounded-full"
-          alt="Shuvo"
-          loading="eager"
-          priority="true"
-        />
-        <h1 className={styles.title}>
-          This is{" "}
-          <a href="https://shuvomohajan.github.io/" className="text-white">
-            Shuvo Mohajan
-          </a>
-        </h1>
-
-        <p className={styles.description}>
-          I&apos;m a{" "}
-          <code className={styles.code}>
-            Web <span>Developer & Designer</span>
-          </code>
-        </p>
-
-        <Social />
-
-        <a
-          href="https://wa.me/01838501660"
-          rel="noreferrer"
-          className="mt-10 py-2.5 px-8 rounded-full font-bold bg-red-500 inline-block cursor-pointer"
-          target="_blank"
-        >
-          Hire Me
-        </a>
+    <div className="py-14" id="About">
+      <div className="container px-4 md:px-14 mx-auto">
+        <h2 className="text-gray-700 font-bold text-4xl mb-16">About Me</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-6">
+          <p className="text-justify leading-7">
+            I’m a web developer & designer. I love technology and I always enjoy
+            learning new tech to improve my skill and build something awesome.{" "}
+            <br /> <br /> I have been working as a backend Laravel developer for
+            4 years now and I have also used many side tools to build awesome
+            user interfaces and interactivity. I always Intend to work in a
+            challenging and competitive environment where a strong sense of
+            responsibility and commitment is required, where the place of the
+            work provides potential avenues for learning, growing, and achieving
+            a top position in the hierarchy of the organization.
+          </p>
+        </div>
       </div>
     </div>
   );

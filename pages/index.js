@@ -1,9 +1,10 @@
 import Head from "next/head";
+import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Works from "../components/Works/Works";
 import Aside from "../components/Aside/Aside";
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <Head>
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="block md:flex">
           <Aside />
         <div className="w-full">
+          <Home />
           <About />
           <Works />
         </div>
