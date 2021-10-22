@@ -35,3 +35,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.sidebar-link-active {
+  @apply text-yellow-400;
+}

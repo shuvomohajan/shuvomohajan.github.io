@@ -7,7 +7,7 @@ const Social = () => {
         href="https://gitlab.com/shuvomohajan"
       >
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
         >
@@ -17,7 +17,7 @@ const Social = () => {
 
       <a target="_blank" rel="noreferrer" href="mailto:shuvomohajan@gmail.com">
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >
@@ -27,7 +27,7 @@ const Social = () => {
 
       <a target="_blank" rel="noreferrer" href="https://wa.me/01838501660">
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >
@@ -41,7 +41,7 @@ const Social = () => {
         href="https://twitter.com/Shuvo_Mohajan"
       >
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >
@@ -55,7 +55,7 @@ const Social = () => {
         href="https://www.linkedin.com/in/shuvo-mohajan-76ba04142/"
       >
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >
@@ -65,7 +65,7 @@ const Social = () => {
 
       <a target="_blank" rel="noreferrer" href="https://fb.com/shuvomohajan.33">
         <svg
-          className="h-5 w-5 fill-current text-white hover:text-red-500"
+          className="h-5 w-5 fill-current text-white hover:text-yellow-400"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
         >

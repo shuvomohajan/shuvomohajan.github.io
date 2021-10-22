@@ -5,23 +5,18 @@ const Aside = () => {
   const [menus, setMenus] = useState([
     {
       name: "Home",
-      isActive: true,
     },
     {
       name: "About",
-      isActive: false,
     },
     {
       name: "Experience",
-      isActive: false,
     },
     {
       name: "Works",
-      isActive: false,
     },
     {
       name: "Contact",
-      isActive: false,
     },
   ]);
   return (
@@ -34,7 +29,7 @@ const Aside = () => {
           <div>
             {Array.isArray(menus) &&
               menus.map((menu, index) => (
-                <SidebarLink name={menu.name} isActive={menu.isActive} key={index} />
+                <SidebarLink name={menu.name} key={index} />
               ))}
           </div>
           <p className="text-gray-400 text-sm">&copy;2021 Shuvo Mohajan</p>

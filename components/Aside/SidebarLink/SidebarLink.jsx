@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-const SidebarLink = ({ name, isActive }) => {
+const SidebarLink = ({ name }) => {
   let icon = "";
   if (name == "Home") {
     icon = (
@@ -92,7 +92,14 @@ const SidebarLink = ({ name, isActive }) => {
   }
 
   return (
-    <Link to={name} spy={true} smooth={true} duration={500} className={`mb-6 font-bold flex items-center ${isActive ? 'text-yellow-400' : null} hover:text-yellow-400 cursor-pointer`}>
+    <Link
+      to={name}
+      activeClass="sidebar-link-active"
+      spy={true}
+      smooth={true}
+      duration={500}
+      className={`mb-6 font-bold flex items-center hover:text-yellow-400 cursor-pointer`}
+    >
       {icon}
       {name}
     </Link>
