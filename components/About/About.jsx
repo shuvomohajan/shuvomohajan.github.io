@@ -1,5 +1,5 @@
-import { useState } from "react/cjs/react.development";
-import styles from "./About.module.css";
+import { useState } from 'react';
+// import styles from "./About.module.css";
 
 const About = () => {
     const [skills] = useState([

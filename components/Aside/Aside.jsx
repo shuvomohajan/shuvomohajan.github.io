@@ -2,7 +2,7 @@ import { useState } from "react";
 import SidebarLink from "./SidebarLink/SidebarLink";
 
 const Aside = () => {
-    const [menus, setMenus] = useState([
+    const [menus] = useState([
         {
             name: "Home",
         },

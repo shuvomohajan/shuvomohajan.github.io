@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Home.module.css";
 import Social from "./Social/Social";
+import myImage from "../../public/shuvo.jpg";
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
         >
             <div className="container px-4 md:px-14 mx-auto h-full">
                 <Image
-                    src="/shuvo.jpg"
+                    src={myImage}
                     height="150"
                     width="150"
                     className="object-cover rounded-full"
