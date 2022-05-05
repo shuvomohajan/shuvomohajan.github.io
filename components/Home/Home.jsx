@@ -1,7 +1,6 @@
-import Image from "next/image";
+import Image from "../Image";
 import styles from "./Home.module.css";
 import Social from "./Social/Social";
-import myImage from "../../public/shuvo.jpg";
 
 const Home = () => {
     return (
@@ -14,13 +13,14 @@ const Home = () => {
         >
             <div className="container px-4 md:px-14 mx-auto h-full">
                 <Image
-                    src={myImage}
+                    src="/shuvo.jpg"
                     height="150"
                     width="150"
                     className="object-cover rounded-full"
-                    alt="Shuvo"
+                    alt="Shuvo Mohajan"
                     loading="eager"
                     priority="true"
+                    quality={90}
                 />
                 <h1 className={styles.title}>
                     This is{" "}
